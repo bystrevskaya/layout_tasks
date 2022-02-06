@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;
+    background-color: #ebebeb;
+}
+
+form {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    color: #454545;
+    width: 380px;
+    height: 380px;
+    padding: 60px 80px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 12px;
+}
+
+.input {
+    width: 370px;
+    height: 50px;
+    border: #eee 2px solid;
+    border-radius: 5px;
+}
+
+#password {
+    background-image: url('eye.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 345px 18px;
+}
+
+#checkbox {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#checkbox:not(:checked) + label {
+    color: #aaa;
+}
+
+a {
+    font-size: 12px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button {
+    color: #fff;
+    background-color: #333;
+    width: 145px;
+    height: 50px;
+    border: none;
+    margin-top: 45px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}

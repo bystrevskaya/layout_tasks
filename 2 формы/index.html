@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Запись на курсы программирования</h1>
+    <form>
+        <div>
+            <label>Имя:</label><br>
+            <input type="text" name="language" placeholder="Андрей" required>
+        </div>
+        <div>
+            <input type="radio" name="language" value="Java" checked>Java
+            <input type="radio" name="language" value="C++">C++
+            <input type="radio" name="language" value="Python">Python
+            <input type="radio" name="language" value="PHP">PHP
+            <input type="radio" name="language" value="JavaScript">JavaScript
+        </div>
+        <div>
+            <label>Дополнительная информация:</label><br>
+            <textarea placeholder="Есть опыт программирования на Java"></textarea>
+        </div>
+        <div>
+            <label>Секретное слово:</label><br>
+            <input type="password"  required>
+        </div>
+        <div>
+            <input type="checkbox"  required>
+            <label>С правилами ознакомился и согласен</label>
+        </div>
+        <div>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+        </div>
+    </form>
+    <p>Made by Polina Bystrevskaya</p>
+</body>
+</html>

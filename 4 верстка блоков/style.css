@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+#first {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dce8ee;
+    border: #3d86a2 4px solid;
+    width: 570px;
+    height: 350px;
+    border-radius: 9px;
+    margin: 20px;
+}
+
+#date {
+    text-align: right;
+    margin: 20px;
+    font-size: 36px;
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+.card {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .2);
+    margin: 5px;
+    position: relative;
+}
+
+.number {
+    width: 180px;
+    height: 200px;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    line-height: 200px;
+}
+
+.subtitle {
+    margin-top: 0;
+    padding: 20px 10px;
+    display: block;
+    width: 160px;
+}
+
+img {
+    position: absolute;
+    left: 142px;
+    top: 183px;
+}
+
+#one {
+    color: #333;
+    background-color: #65c2dc;
+}
+
+#two {
+    color: #fff;
+    background-color: #eebc40;
+}
+
+#three {
+    color: #fff;
+    background-color: #269f5d;
+}
